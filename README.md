@@ -4,4 +4,5 @@ This app is a simple calculator that helps in choosing the correct number of con
   * entry price
   * stop loss
 * Output:
-*   Take Profit Price Levels to keep risk in check per each trade
+  * Take Profit Price Levels to keep risk in check per each trade
+![alt text](Wireframe.png)
