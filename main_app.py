@@ -37,7 +37,7 @@ def main():
     col1, col2 = st.columns(2)
 
     with col1:
-        risk_amount = st.number_input('Risk Amount', step=10,value=10000,help="Total amount willing to risk per trade")
+        risk_amount = st.number_input('Risk Amount', step=10,value=100,help="Total amount willing to risk per trade")
         entry = round(st.number_input('Entry', step=0.01,value=0.5, help='Entry price per contract'),2)
         sp_val = entry/2 if entry!=0 else 0
         sp = st.number_input('Stop Loss', step=0.01, value=sp_val, help='Exit with a loss - price per contract')
